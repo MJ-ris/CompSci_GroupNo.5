@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<style>
+			* {
+			box-sizing: border-box;
+			}
+			
+			.row:after {
+				content: "";
+				clear: both;
+			}
+				
+			[class*="col-"] {
+				float: left;
+				}
+			
+			@media only screen and (min-width:1025px){
+				.col-1 {width: 8.33%;}
+				.col-2 {width: 16.66%;}
+				.col-3 {width: 25%;}
+				.col-4 {width: 33.33%;}
+				.col-5 {width: 41.66%;}
+				.col-6 {width: 50%;}
+				.col-7 {width: 58.33%;}
+				.col-8 {width: 66.66%;}
+				.col-9 {width: 75%;}
+				.col-10 {width: 83.33%;}
+				.col-11 {width: 91.66%;}
+				.col-12 {width: 100%;}
+				
+				div {
+				padding:15px;
+				}
+			}
+			
+			@media only screen and (min-width:720px){
+				.col-1-t {width: 8.33%;}
+				.col-2-t {width: 16.66%;}
+				.col-3-t {width: 25%;}
+				.col-4-t {width: 33.33%;}
+				.col-5-t {width: 41.66%;}
+				.col-6-t {width: 50%;}
+				.col-7-t {width: 58.33%;}
+				.col-8-t {width: 66.66%;}
+				.col-9-t {width: 75%;}
+				.col-10-t {width: 83.33%;}
+				.col-11-t {width: 91.66%;}
+				.col-12-t {width: 100%;}
+				
+				div {
+				padding:15px;
+				}
+			}
+			
+			@media only screen and (max-width:719px){
+				.col-1-p {width: 8.33%;}
+				.col-2-p {width: 16.66%;}
+				.col-3-p {width: 25%;}
+				.col-4-p {width: 33.33%;}
+				.col-5-p {width: 41.66%;}
+				.col-6-p {width: 50%;}
+				.col-7-p {width: 58.33%;}
+				.col-8-p {width: 66.66%;}
+				.col-9-p {width: 75%;}
+				.col-10-p {width: 83.33%;}
+				.col-11-p {width: 91.66%;}
+				.col-12-p {width: 100%;}
+				
+				li {
+				float: left;
+				display:block
+				}
+				
+				.menu div {
+				padding:0;
+				}
+				
+			}
+			
+			html {
+			font-family: "Lucida Sans", sans-serif;
+			}
+			
+			.header {
+			background-color: #9933cc;
+			color: #ffffff;
+			padding: 15px;
+			}
+			
+			.menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			}
+			
+			.menu li {
+			padding: 8px;
+			margin-bottom: 7px;
+			background-color: #33b5e5;
+			color: #ffffff;
+			box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+			}
+			
+			.menu li:hover {
+			background-color: #0099cc
+			}
+			
+			li a{
+			text-decoration:none;
+			color:#ffffff;
+			display:block;
+			text-align:center
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="header">
+			<h1>Gas Laws</h1>
+		</div>
+		
+		<div class="row">
+			
+			<div class="col-3 col-3-t col-12-p menu">
+				<ul>
+					<li class="col-12 col-12-t col-3-p"><a href="CompSci_GroupNo.5.html">Home</a></li>
+					<li class="col-12 col-12-t col-3-p"><a href="Boyle.html">Boyle</a></li>
+					<li class="col-12 col-12-t col-3-p"><a href="Charles.html">Charles</a></li>
+					<li class="col-12 col-12-t col-3-p"><a href="Gay.html">Gay-Lusaac</a></li>
+				</ul>
+			</div>
+			
+			<div class="col-9 col-9-t col-12-p ">
+				<h1>Avogadro's Law</h1>
+				<p>This law of gas was first proposed by Amedeo Avogadro in 1811, Avogadro’s law is the statement that equal volumes of all gases, at the same temperature and pressure, have the same number of molecules. This gas law hypothesizes that with two given samples of ideal gas, of the same volume and at the same temperature and pressure, contain the same number of molecules.</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
